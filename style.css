@@ -10,12 +10,14 @@
 #navbar ul li {
     display: inline;
     
+    
 }
 #navbar ul li a{
     color: white;
     text-decoration: none;
-    margin: 25px;
-
+    margin: 0px;
+    padding: 13px 13px;
+    
 }
 #navbar ul li a:hover{
             background-color: white;
@@ -49,5 +51,6 @@ footer{
 #logo img{
     height: 30px;
     width: 30px;
-    border-radius: 14px;
+    border-radius: 24px;
+    padding: 15px 15px;
 }
