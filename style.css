@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+  ;l'l;+   padding: 0;
+
+}
+
+#navbar{
+display: flex;
+align-items: center;
+position: relative;
+
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(29, 31, 32, 0.671);
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    opacity: 0.6;
+    }
+ul{
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+ul li a{
+    display: block;
+    border-radius: 20px;
+    padding: 12px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* body{
+    background-color: rgb(98, 134, 233);
+} */
+
+.main{
+    text-align: center;
+    color: red;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background-image: url(/Virendra/img/download\ \(1\).jpg);
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    opacity: 0.89;
+    }
