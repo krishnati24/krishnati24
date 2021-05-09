@@ -96,7 +96,9 @@ footer{
     header nav{
         height: 14vh;
     }
-
+    .items{
+        margin: 9px 0px 0px -26px;
+    }
     
 }
     
