@@ -73,12 +73,14 @@ footer{
 }
 #footer {
     justify-content: center;
+    position: fixed;
 }
 
 .logo{
 
     display: flex;
 }
+
 
 @media screen and (max-width: 800px) {
     body{
@@ -99,6 +101,61 @@ footer{
     .items{
         margin: 9px 0px 0px -26px;
     }
+
     
 }
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 30vw;
+    font-size: 24px;
+    position: relative;
+    left: 35vw;
+    top: 5vh;
+    border: 2px solid white;
     
+}
+.heading:hover{
+    background-color:white;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 245px;
+    position: relative;
+    top: 118px;
+    left: 188px;
+}
+/*.box{
+    display: flex;
+    justify-content: center;
+    height:200px;
+    width: 180px;
+    position: relative;
+    top: 100px;
+    left: 215px;   
+}*/
+
+.box input[ type="text"]{
+    padding: 5px ;
+    margin: 6px 2px;
+}
+.box input[ type="password"]{
+    padding: 5px ;
+    margin: 6px 2px;
+    
+}
+button{
+    position: relative;
+    top: 45px;
+    left: -115px;
+}
+
+
